@@ -1,0 +1,4 @@
+system/bin/ims_rtp_daemon   1000   1001   00755   capabilities=1024
+system/bin/imsdatadaemon    1000   1000   00755   capabilities=1024
+system/bin/pm-service       1000   1000   00755   capabilities=1024
+system/bin/wcnss_filter     1002   1002   00755   capabilities=68719476736
