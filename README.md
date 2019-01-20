@@ -1,4 +1,4 @@
-Android IMG tools to be compiled with cygwin.
+###Android IMG tools to be compiled with cygwin.
 
 
 Install cygwin in the default directory with the following packages.
@@ -6,7 +6,7 @@ Install cygwin in the default directory with the following packages.
 libpcre1, zlib-devel, cmake, make, automake, gcc-core, gcc-g++, libgcc1, libstdc++6, cpio, flex, bison, cygwin32-gcc-core
 
 
-To build simply open CMD and
+#To build simply open CMD and
 
 path=%path%C:\cygwin64\bin;
 
@@ -14,6 +14,8 @@ cd to each directory
 
 make
 
+
+#Original Sources
 
 Sparse utillities based on sources https://github.com/anestisb/android-simg2img
 
@@ -26,10 +28,7 @@ make_ext4fs based on sources https://github.com/jamflux/make_ext4fs
 sefcontext_decompile based on sources https://github.com/wuxianlin/sefcontext_decompile
 
 
-All ported to be built with Cygwin on windows
-
-
-Generates - 
+#Generates - 
 
 append2simg.exe
 
@@ -56,6 +55,6 @@ simg2simg.exe
 unpackbootimg.exe
 
 
-Contributors
+#Contributors
 
 SuperR, anestisb, rkhat2, osm0sis, jamflux, wuxianlin, Xannytech, CarmineRovito
