@@ -18,13 +18,7 @@ make
 # To build e2fsprogs
 Open cygwin
 
-cd to the directory with the patch files
-
-patch -p1 < 1.44.5-as-needed.patch
-
-patch -p1 < 1.44.5-uuidd.patch
-
-cd e2fsprogs-1.44.5
+cd to the directory
 
 mkdir build
 
@@ -42,7 +36,7 @@ make
 * make_ext4fs based on sources https://github.com/jamflux/make_ext4fs
 * sefcontext_decompile based on sources https://github.com/wuxianlin/sefcontext_decompile
 * dtc based on sources https://github.com/dgibson/dtc
-* e2fsprogs based on sources from cygwin
+* e2fsprogs based on sources https://github.com/tytso/e2fsprogs
 
 
 # Generates - 
@@ -61,5 +55,5 @@ make
 * mke2fs.exe
 
 ## Contributors
-SuperR, anestisb, rkhat2, osm0sis, jamflux, wuxianlin, Xannytech, CarmineRovito, github, tytso, andreas-schwab, Cygwin
+SuperR, anestisb, rkhat2, osm0sis, jamflux, wuxianlin, Xannytech, CarmineRovito, github, tytso, andreas-schwab
 
