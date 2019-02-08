@@ -10,18 +10,28 @@ libpcre1, zlib-devel, cmake, make, automake, gcc-core, gcc-g++, libgcc1, libstdc
 
 # To build simply open CMD and
 path=%path%C:\cygwin64\bin;
+
 cd to each directory
+
 make
 
 # To build e2fsprogs
 Open cygwin
+
 cd to the directory with the patch files
+
 patch -p1 < 1.44.5-as-needed.patch
+
 patch -p1 < 1.44.5-uuidd.patch
+
 cd e2fsprogs-1.44.5
+
 mkdir build
+
 cd build
+
 ../configure
+
 make
 
 
